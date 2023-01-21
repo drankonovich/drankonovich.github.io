@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/love-2');
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/422/230/original/white-heart-particle-motion-background-faded-wallpaper-animation-with-black-color-flying-bubble-free-video.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background: grey;
+    border-radius: 10px;
+}
+
+.center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn_submit {
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn_submit:hover {
+    background: darkcyan;
+}
+
+.btn_changable_1 {
+    display: inline-block;
+    height: 50px;
+    background: whitesmoke;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 0 40px;
+
+    width: 100%;
+}
+
+.btn_changable_1:hover {
+    border-color: lightblue;
+}
+
+.btn_changable_2 {
+    display: inline-block;
+    height: 50px;
+    background: darkslategray;
+    color: white;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 0 40px;
+
+    width: 100%;
+}
+
+.btn_changable_2:hover {
+    border-color: lightblue;
+}
